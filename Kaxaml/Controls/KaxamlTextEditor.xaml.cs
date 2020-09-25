@@ -184,7 +184,7 @@ namespace Kaxaml.Controls
         /// <summary>
         /// The FontFamily associated with text in the TextEditor.
         /// </summary>
-        public string FontFamily
+        public new string FontFamily
         {
             get { return (string)GetValue(FontFamilyProperty); }
             set { SetValue(FontFamilyProperty, value); }
@@ -193,7 +193,7 @@ namespace Kaxaml.Controls
         /// <summary>
         /// DependencyProperty for FontFamily
         /// </summary>
-        public static readonly DependencyProperty FontFamilyProperty =
+        public new static readonly DependencyProperty FontFamilyProperty =
             DependencyProperty.Register("FontFamily", typeof(string), typeof(KaxamlTextEditor), new FrameworkPropertyMetadata("Courier New", new PropertyChangedCallback(FontFamilyChanged)));
 
         /// <summary>
@@ -215,7 +215,7 @@ namespace Kaxaml.Controls
         /// <summary>
         /// The size of the text in the TextEditor.
         /// </summary>
-        public float FontSize
+        public new float FontSize
         {
             get { return (float)GetValue(FontSizeProperty); }
             set { SetValue(FontSizeProperty, value); }
@@ -224,7 +224,7 @@ namespace Kaxaml.Controls
         /// <summary>
         /// DependencyProperty for FontSize
         /// </summary>
-        public static readonly DependencyProperty FontSizeProperty =
+        public new static readonly DependencyProperty FontSizeProperty =
             DependencyProperty.Register("FontSize", typeof(float), typeof(KaxamlTextEditor), new FrameworkPropertyMetadata((float)1, new PropertyChangedCallback(FontSizeChanged)));
 
         /// <summary>

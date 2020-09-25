@@ -26,7 +26,7 @@ namespace Kaxaml.Documents
 
         #region Static Methods
 
-        public static AgDocument FromFile(string fullPath)
+        public new static AgDocument FromFile(string fullPath)
         {
             if (File.Exists(fullPath))
             {

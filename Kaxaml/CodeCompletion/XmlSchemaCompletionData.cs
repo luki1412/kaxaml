@@ -427,9 +427,15 @@ namespace Kaxaml.CodeCompletion
         {
             try
             {
-                schema = XmlSchema.Read(reader, new ValidationEventHandler(SchemaValidation));
-                schema.Compile(new ValidationEventHandler(SchemaValidation));
-
+                var tempschema = XmlSchema.Read(reader, new ValidationEventHandler(SchemaValidation));
+                var schemaSet = new XmlSchemaSet();
+                schemaSet.ValidationEventHandler += new ValidationEventHandler(SchemaValidation);
+                schemaSet.Add(schema);
+                schemaSet.Compile();
+                var coll = schemaSet.Schemas();
+                var enumerator = coll.GetEnumerator();
+                enumerator.Reset();
+                schema = (XmlSchema)enumerator.Current;
                 namespaceUri = schema.TargetNamespace;
             }
             finally

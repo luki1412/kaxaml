@@ -9,7 +9,7 @@
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{873E2150-4B06-418B-A998-245B0883B32C}</ProjectGuid>
-    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+<ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KaxamlSilverlightHost</RootNamespace>
@@ -85,9 +85,9 @@
     <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Static Analysis Tools\Rule Sets</CodeAnalysisRuleSetDirectories>
     <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
-    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleDirectories>
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
     <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
   </PropertyGroup>
@@ -103,28 +103,28 @@
     <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
-    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Static Analysis Tools\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleDirectories>
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
     <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>..\packages\Prism.4.0.0.0\lib\SL4\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>..\packages\Prism.4.1.0.0\lib\SL4\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism.Interactivity">
-      <HintPath>..\packages\Prism.4.0.0.0\lib\SL4\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+      <HintPath>..\packages\Prism.4.1.0.0\lib\SL4\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>..\packages\CommonServiceLocator.1.0\lib\SL30\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\packages\CommonServiceLocator.2.0.5\lib\net45\CommonServiceLocator.dll</HintPath>
     </Reference>
-    <Reference Include="PixelLab.Common_SL4, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="PixelLab.Common_SL4, Version=6.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\PixelLab.BOT.1.1.0\lib\SL4\PixelLab.Common_SL4.dll</HintPath>
+      <HintPath>..\packages\PixelLab.BOT.6.0.2\lib\SL40\PixelLab.Common_SL4.dll</HintPath>
     </Reference>
-    <Reference Include="PixelLab.SL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="PixelLab.SL, Version=6.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\PixelLab.BOT.1.1.0\lib\SL4\PixelLab.SL.dll</HintPath>
+      <HintPath>..\packages\PixelLab.BOT.6.0.2\lib\SL40\PixelLab.SL.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Windows" />
